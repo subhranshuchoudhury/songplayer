@@ -1,38 +1,268 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.fatherContainer {
+  background-color: #0b0b0c;
+  background-image: url("https://www.transparenttextures.com/patterns/xv.png");
+  background-attachment: fixed;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.songTilesContainer {
+  display: inline-block;
+  padding: 5px;
+  height: 130px;
+  /* background-color: aqua; */
+}
+
+
+.songTilesContainer img {
+  width: 200px;
+  height: 130px;
+  border-radius: 23px;
+  border: 3px solid #2C3639;
+  cursor: pointer;
+  box-shadow: 5px 5px 4px rgb(0, 0, 0);
+}
+
+
+.songTilesContainer img:hover {
+  border: 3px solid white;
+}
+
+.tileContainer {
+  text-align: center;
+  display: inline-block;
+  height: 290px;
+  width: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  white-space: initial;
+  background-color: transparent;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #4c5052;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+hr {
+  box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 179), 0 0 5px rgb(235, 46, 46);
+
+  border: 2px solid white;
+  width: 80%;
+  margin: 8px auto;
+  border-radius: 23px;
+
+}
+
+.audioElement p {
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px blue, 0 0 5px darkblue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 23px;
+  font-weight: bold;
+  font-size: larger;
+  display: table;
+  margin: 0 auto 10px;
+}
+
+.songTitle {
+  text-shadow: 2px 2px 4px #000000;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.audioElement audio {
+  width: 90%;
+  margin-bottom: 50px;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  -moz-box-shadow: 2px 2px 4px 0px #2C3639;
+  -webkit-box-shadow: 2px 2px 4px 0px #2C3639;
+  box-shadow: 2px 2px 4px 0px #2C3639;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border-radius: 7px 7px 7px 7px;
+  border-radius: 7px 7px 7px 7px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.audioElement {
+  padding: 10px;
+  text-align: center;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #2C3639;
+}
+
+audio::-webkit-media-controls-current-time-display {
+  color: #fff;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+  color: #fff;
+}
+
+audio::-webkit-media-controls-timeline {
+  background-color: #ABC9FF;
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+audio::-webkit-media-controls-play-button {
+  background-color: #B1D4E0;
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-play-button:hover {
+  background-color: rgba(177, 212, 224, .7);
+}
+
+audio::-webkit-media-controls-volume-slider {
+  background-color: #B1D4E0;
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+img:active {
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.playerThumbnail {
+  /* width: 250px;
+  height: 240px; */
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px blue, 0 0 5px darkblue;
+  margin: 10px auto 20px;
+  /* border-radius: 30px; */
+}
+
+.listTiles {
+  background-color: #2C3639;
+  box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(117, 117, 231), 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.308), 0 0 25px rgb(255, 0, 179);
+  font-weight: bolder;
+  border-radius: 23px;
+  color: white;
+  list-style: none;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 0 10px 20px;
+}
+
+.listTiles:hover {
+  list-style: georgian inside url('https://github.com/subhranshuchoudhury/s-Player/raw/main/songs/player-icon%20production.png');
+  cursor: pointer;
+  background-color: wheat;
+  color: #2C3639;
+  box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 179), 0 0 5px rgb(235, 46, 46);
+
+}
+
+.listTileHolder {
+  height: 300px;
+  overflow-y: scroll;
+}
+
+audio:hover,
+audio:focus,
+audio:active {
+  -webkit-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.moodBtnContainer {
+  text-align: center;
+  margin: 8px 0 8px 0;
+}
+
+.moodButton {
+  width: 20%;
+  margin: 15px;
+  height: 40px;
+  font-weight: bolder;
+  color: wheat;
+  font-size: 100;
+  border: none;
+  background-color: #ABC9FF;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0);
+  box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px blue, 0 0 5px darkblue;
+
+}
+
+.moodButton:hover{
+  box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 179), 0 0 5px rgb(235, 46, 46);
+
+}
+
+input {
+  width: 70%;
+  margin: 7px auto;
+  text-align: center;
+  background: transparent;
+  color: white;
+  border: none;
+  font-weight: bolder;
+  border-bottom: 2px solid #E8AA42;
+  font-size: larger;
+}
+
+input:focus {
+  outline: none;
+}
+
+.searchBar {
+  text-align: center;
+}
+
+.header {
+  background-color: white;
+  margin-bottom: 50px;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: x-large;
+  display: block;
+  padding: 6px 0 8px 10px;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 179), 0 0 5px rgb(235, 46, 46);
+}
+
+.header a:hover{
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(96, 85, 241), 0 0 5px rgb(49, 46, 235);
+
 }
