@@ -19,7 +19,7 @@ function App() {
   return <div className='fatherContainer'>
     <Header />
     <div className='audioElement'>
-      <img className='playerThumbnail' src={playerthumbnail || "https://github.com/subhranshuchoudhury/s-Player/raw/main/songs/pngegg.png"} alt={songName}></img>
+      <img className='playerThumbnail' src={playerthumbnail || "/songplayer/Assets/playerDisc.png"} alt={songName}></img>
       <p>{songName}</p>
       <audio
         controls autoPlay={true} loop={true}
@@ -28,7 +28,6 @@ function App() {
         <code>audio</code> element.
       </audio>
     </div>
-    <hr></hr>
     <div className='tileContainer'>
       {
         Songs.map((song) => {
@@ -46,16 +45,19 @@ function App() {
     <Moodbuttons setmood={setmood} />
     
     <div className='searchBar'>
-    <input placeholder='🔍Search your fav one..' value={searchVal} onChange={(e) => { setsearchVal(e.target.value) }}></input>
+    <input placeholder='🔍Search your song..' value={searchVal} onChange={(e) => { setsearchVal(e.target.value) }}></input>
 
     </div>
       <div className='listTileHolder'>
 
         {
           !searchVal ? Songs.filter(song => song.Category.includes(mood)).map((item, index) =>
-            (<li onClick={() => playSong(item.Source, item.Title, item.Thumbnail)} className='listTiles'>{index + 1}. {item.Title} ({item.Category})</li>)) : Songs.filter(song => song.Title.toUpperCase().includes(searchVal.toUpperCase())).map((item, index) =>
-              (<li onClick={() => playSong(item.Source, item.Title, item.Thumbnail)} className='listTiles'>{index + 1}. {item.Title} ({item.Category})</li>))
+            (<li onClick={() => playSong(item.Source, item.Title, item.Thumbnail)} className='listTiles'>{index + 1}. {item.Title} | {item.Category.toUpperCase()}</li>)) : Songs.filter(song => song.Title.toUpperCase().includes(searchVal.toUpperCase())).map((item, index) =>
+              (<li onClick={() => playSong(item.Source, item.Title, item.Thumbnail)} className='listTiles'>{index + 1}. {item.Title} |{item.Category.toUpperCase()}</li>))
         }
+    </div>
+    <div className='footer'>
+      <b>Made By Subhranshu</b>
     </div>
   </div>
 }
