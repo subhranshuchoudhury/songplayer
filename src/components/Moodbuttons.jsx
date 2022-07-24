@@ -4,11 +4,11 @@ const Moodbuttons = (props) => {
     return (
         <div>
       <div className='moodBtnContainer'>
-        <button className='moodButton' onClick={() => props.setmood("")}>All ❤️</button>
-        <button className='moodButton' onClick={() => props.setmood("sad")}>Sad 😔</button>
-        <button className='moodButton' onClick={() => props.setmood("happy")}>Happy 🤗</button>
-        <button className='moodButton' onClick={() => props.setmood("chill")}>Chill 😁</button>
-        <button className='moodButton' onClick={() => props.setmood("motivation")}>Motivation 😤</button>
+        <button className={props.toggleMode ? "moodButton" : "darkMoodButton"}  onClick={() => props.setmood("")} >All ❤️</button>
+        <button className={props.toggleMode ? "moodButton" : "darkMoodButton"}  onClick={() => props.setmood("sad")}>Sad 😔</button>
+        <button className={props.toggleMode ? "moodButton" : "darkMoodButton"}  onClick={() => props.setmood("happy")}>Happy 🤗</button>
+        <button className={props.toggleMode ? "moodButton" : "darkMoodButton"}  onClick={() => props.setmood("chill")}>Chill 😁</button>
+        <button className={props.toggleMode ? "moodButton" : "darkMoodButton"}  onClick={() => props.setmood("motivation")}>Motivation 😤</button>
     
       </div>
       </div>

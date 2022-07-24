@@ -5,12 +5,19 @@
   margin: 0;
 }
 
+/* dark mode */
 .fatherContainer {
   background-color: #0b0b0c;
   background-image: url("https://www.transparenttextures.com/patterns/xv.png");
   background-attachment: fixed;
   min-height: 100vh;
 }
+
+.whiteBg{
+  background-color: #F9F2ED;
+  background-image: url("https://www.transparenttextures.com/patterns/xv.png");
+}
+
 
 .songTilesContainer {
   display: inline-block;
@@ -20,8 +27,8 @@
 
 
 .songTilesContainer img {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 80px;
   border-radius: 23px;
   border: 3px solid #2C3639;
   cursor: pointer;
@@ -92,9 +99,15 @@ hr {
 
   }
 }
+
 .songTitle {
   text-shadow: 2px 2px 4px #000000;
   color: white;
+}
+
+.darkSongTitle{
+  text-shadow: 2px 2px 4px #978d8d;
+  color: black;
 }
 
 .audioElement audio {
@@ -163,6 +176,7 @@ img:active {
   border: 2px solid white;
   width: 200px;
   height: 200px;
+  cursor: pointer;
   box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px blue, 0 0 5px darkblue;
   animation: mymove 20s infinite;
 }
@@ -231,6 +245,22 @@ audio:active {
   margin: 8px 0 8px 0;
 }
 
+.darkMoodButton {
+  width: 40px;
+  margin: 15px;
+  height: 40px;
+  font-weight: bolder;
+  color: black;
+  font-size: 100;
+  border-radius: 50%;
+  background-color: #E8AA42;
+  cursor: pointer;
+  font-family: 'Pacifico', cursive;
+  /* text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0); */
+  /* box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px blue, 0 0 5px darkblue; */
+
+}
+
 .moodButton {
   width: 40px;
   margin: 15px;
@@ -241,6 +271,7 @@ audio:active {
   border-radius: 50%;
   background-color: black;
   cursor: pointer;
+  margin:10px 20px 10px 20px;
   font-family: 'Pacifico', cursive;
   /* text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 0), 0 0 5px rgb(0, 0, 0); */
   /* box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px blue, 0 0 5px darkblue; */
@@ -251,8 +282,22 @@ audio:active {
   box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 179), 0 0 5px rgb(235, 46, 46);
 
 }
+.darkMoodButton:hover{
+  box-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 179), 0 0 5px rgb(235, 46, 46);
 
-input {
+}
+
+
+
+.searchBar {
+  text-align: center;
+}
+
+.darkSearchBar{
+  text-align: center;
+}
+
+.searchBar input {
   width: 70%;
   margin: 7px auto;
   text-align: center;
@@ -264,12 +309,20 @@ input {
   font-size: larger;
 }
 
-input:focus {
-  outline: none;
+.darkSearchBar input{
+  width: 70%;
+  margin: 7px auto;
+  text-align: center;
+  background: transparent;
+  color: rgb(0, 0, 0);
+  border: none;
+  font-weight: bolder;
+  border-bottom: 2px solid #E8AA42;
+  font-size: larger;
 }
 
-.searchBar {
-  text-align: center;
+input:focus {
+  outline: none;
 }
 
 .header {
@@ -280,6 +333,22 @@ input:focus {
 .header a {
   text-decoration: none;
   color: wheat;
+  font-weight: bolder;
+  font-size: x-large;
+  display: block;
+  padding: 6px 0 8px 10px;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(255, 0, 179), 0 0 5px rgb(235, 46, 46);
+}
+
+.darkheader{
+  margin-bottom: 50px;
+
+}
+
+.darkheader a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
   font-weight: bolder;
   font-size: x-large;
   display: block;

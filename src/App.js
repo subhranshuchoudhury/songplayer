@@ -8,19 +8,26 @@ function App() {
   const [songUrl, setsongUrl] = useState("");
   const [songName, setsongName] = useState("...");
   const [mood, setmood] = useState("");
+  const [toggleMode, settoggleMode] = useState(false);
   const [searchVal, setsearchVal] = useState("");
   const [playerthumbnail, setplayerthumbnail] = useState("");
+  const DarkmodeClass = ["fatherContainer"];
+  const NonDarkModeClass = ["whiteBg"];
   const playSong = (songSource, songTitle, playerThumbnail) => {
     setsongName(songTitle);
     setsongUrl(songSource);
     setplayerthumbnail(playerThumbnail);
   }
 
-  return <div className='fatherContainer'>
-    <Header />
+  const toggle = ()=>{
+    settoggleMode(!toggleMode);
+  }
+
+  return <div className={toggleMode ? DarkmodeClass.join(" ") : NonDarkModeClass.join("")}>
+    <Header toggleMode={toggleMode} />
     <div className='audioElement'>
-      <img className='playerThumbnail' src={playerthumbnail || "/songplayer/Assets/playerDisc.png"} alt={songName}></img>
-      <p>{songName}</p>
+      <img onClick={toggle} className='playerThumbnail' src={playerthumbnail || "/songplayer/Assets/playerDisc.png"} alt={songName}></img>
+      <p style={toggleMode ? null : {color: "black"}}>{songName}</p>
       <audio
         controls autoPlay={true} loop={true}
         src={songUrl}>
@@ -28,6 +35,7 @@ function App() {
         <code>audio</code> element.
       </audio>
     </div>
+
     <div className='tileContainer'>
       {
         Songs.map((song) => {
@@ -36,15 +44,16 @@ function App() {
             source={song.Source}
             title={song.Title}
             category={song.Category}
+            toggleMode={toggleMode}
             playFunction={playSong} />
 
         })
       }
     </div>
     <hr></hr>
-    <Moodbuttons setmood={setmood} />
+    <Moodbuttons setmood={setmood} toggleMode={toggleMode} />
     
-    <div className='searchBar'>
+    <div className={toggleMode ? "searchBar" : "darkSearchBar"}>
     <input placeholder='🔍Search your song..' value={searchVal} onChange={(e) => { setsearchVal(e.target.value) }}></input>
 
     </div>
@@ -58,6 +67,9 @@ function App() {
     </div>
     <div className='footer'>
       <b>Made By Subhranshu</b>
+      <h5>Switch Mode</h5>
+      <input type="checkbox" onClick={toggle}></input>
+
     </div>
   </div>
 }

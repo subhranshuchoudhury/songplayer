@@ -7,7 +7,7 @@ const Songtitles = (props) => {
             <img src={props.thumbnail} 
             alt={props.title} 
             onClick={() => props.playFunction(props.source,props.title,props.thumbnail)} />
-            <h5 className='songTitle'>{props.title}</h5>
+            <h5 className={props.toggleMode ? "songTitle" : "darkSongTitle"}>{props.title}</h5>
         </div>
     );
 }
