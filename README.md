@@ -1,70 +1,15 @@
-# Getting Started with Create React App
+# Contributing Guide
+ Song Player 🎧 is Open Source! Enjoy contributing.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Getting Started
+1. Make sure you have a <a href="https://github.com">GitHub</a> Account.
+2. Make sure the <a href="https://nodejs.org/en/download/">Node.js</a> and <a href="https://github.com">VS code</a> is installed on your system.
+3. Make sure you have <a href="https://git-scm.com/downloads">Git</a> installed on your system.
+4. <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo">Fork</a> the repository on GitHub.
+## Making Changes
+1. <a href="https://help.github.com/articles/creating-and-deleting-branches-within-your-repository">Create a Branch</a> for your changes.
+2. <a href="http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository">Commit Your Code</a> for each logical change (see <a href="http://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message">tips for creating better commit messages</a>).
+3. <a href="https://help.github.com/articles/pushing-to-a-remote">Push your change</a> to your fork.
+4. <a href="https://help.github.com/articles/creating-a-pull-request">Create a Pull Request</a> on GitHub for your change.
+5. Wait for reviewers to give feedback.
+6. When the reviewers think that the Pull Request is ready, they will merge it.
