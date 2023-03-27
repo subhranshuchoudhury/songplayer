@@ -6,6 +6,11 @@
 2. Make sure the <a href="https://nodejs.org/en/download/">Node.js</a> and <a href="https://github.com">VS code</a> is installed on your system.
 3. Make sure you have <a href="https://git-scm.com/downloads">Git</a> installed on your system.
 4. <a href="https://docs.github.com/en/get-started/quickstart/fork-a-repo">Fork</a> the repository on GitHub.
+
+## Watch this video carefully
+
+### https://youtu.be/2LOyAnFuw8Y
+
 ## Making Changes
 1. <a href="https://help.github.com/articles/creating-and-deleting-branches-within-your-repository">Create a Branch</a> for your changes.
 2. <a href="http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository">Commit Your Code</a> for each logical change (see <a href="http://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message">tips for creating better commit messages</a>).
