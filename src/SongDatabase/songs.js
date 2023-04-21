@@ -112,7 +112,13 @@ const Songs = [
         "Thumbnail" : "https://i.ytimg.com/vi/Sk-U8ruIQyA/0.jpg",
         "Source" : "https://github.com/subhranshuchoudhury/s-Player/raw/main/songs/y2mate.com%20-%20grandson%20%20Blood%20%20Water%20Official%20Audio.mp3"
     },
- 
+    {
+        "SongID" : 17,
+        "Title" : "Tum Hi Mera",
+        "Category" : "Happy",
+        "Thumbnail" : "https://pagalnew.com/coverimages/Tu-Hi-Mera-Jannat-2-Original-Motion-Picture-Soundtrack-500-500.jpg",
+        "Source" : "absr"
+    },
     
 ]
 
