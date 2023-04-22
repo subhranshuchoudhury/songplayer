@@ -117,7 +117,7 @@ const Songs = [
         "Title" : "Jabra Fan",
         "Category" : "Happy",
         "Thumbnail" : "https://www.pagalworld.tv/GpE34Kg9Gq/10552/thumb-jabra-fan-mp3-song-300.jpg",
-        "Source" : "https://www.pagalworld.tv/jabra-fan-hindi-190kbps/download.html"
+        "Source" : "https://www.dropbox.com/s/a7rx1m8lvrvwbhu/Jabra%20Fan%20%28Hindi%29%20190Kbps%20%282%29.mp3?dl=0"
     },
  
     
