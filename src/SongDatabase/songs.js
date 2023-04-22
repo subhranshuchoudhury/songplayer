@@ -117,7 +117,7 @@ const Songs = [
         "Title" : "Dil Ibaadat",
         "Category" : "chill",
         "Thumbnail" : "https://i1.sndcdn.com/artworks-4a9uRYKokSlxODeV-pjh2RA-t500x500.jpg",
-        "Source" : "https://www.dropbox.com/s/9w6nko6lsm20h0h/Dil%20Ibaadat%20Tum%20Mile%20Original%20Motion%20Picturetrack%20128%20Kbps.mp3?dl=0"
+        "Source" : "https://www.dropbox.com/s/9w6nko6lsm20h0h/Dil%20Ibaadat%20Tum%20Mile%20Original%20Motion%20Picturetrack%20128%20Kbps.mp3?dl=1"
     },
     
 ]
