@@ -98,7 +98,6 @@ const Songs = [
         "Thumbnail" : "https://i.ytimg.com/vi/kd-6aw99DpA/0.jpg",
         "Source" : "https://github.com/subhranshuchoudhury/s-Player/raw/main/songs/y2mate.com%20-%20Full%20Video%20Chak%20Lein%20De%20%20Chandni%20Chowk%20To%20China%20%20Akshay%20Kumar%20Deepika%20Padukone%20%20Kailash%20Kher.mp3"
     },
-    {
         "SongID" : 15,
         "Title" : "Brothers Anthem",
         "Category" : "motivation",
@@ -117,7 +116,7 @@ const Songs = [
         "Title" : "Tum Hi Mera",
         "Category" : "Happy",
         "Thumbnail" : "https://pagalnew.com/coverimages/Tu-Hi-Mera-Jannat-2-Original-Motion-Picture-Soundtrack-500-500.jpg",
-        "Source" : "https://drive.google.com/file/d/1L1U7Fn7T_4xVwJw8XBi2n1gOnBBLCqfp/view?usp=share_link"
+        "Source" : "https://www.dropbox.com/s/v3ak1ye5qzn4vl8/Tu%20Hi%20Mera%20Jannat%202%20Original%20Motion%20Picturetrack%20128%20Kbps.mp3?dl=0"
     },
     
 ]
