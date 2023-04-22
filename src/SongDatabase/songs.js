@@ -112,6 +112,13 @@ const Songs = [
         "Thumbnail" : "https://i.ytimg.com/vi/Sk-U8ruIQyA/0.jpg",
         "Source" : "https://github.com/subhranshuchoudhury/s-Player/raw/main/songs/y2mate.com%20-%20grandson%20%20Blood%20%20Water%20Official%20Audio.mp3"
     },
+    {
+        "SongID" : 17,
+        "Title" : "Blue Eyes",
+        "Category" : "chill happy",
+        "Thumbnail" : "https://pagalworld.com.im/datadbs/thumb/sft12/5595_4.jpg",
+        "Source" : "https://pagalworld.com.im/blue-eyes-mp3-song-download.html"
+    },
  
     
 ]
