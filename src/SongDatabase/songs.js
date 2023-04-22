@@ -116,7 +116,7 @@ const Songs = [
         "Title" : "Tum Hi Mera",
         "Category" : "Happy",
         "Thumbnail" : "https://pagalnew.com/coverimages/Tu-Hi-Mera-Jannat-2-Original-Motion-Picture-Soundtrack-500-500.jpg",
-        "Source" : "https://www.dropbox.com/s/v3ak1ye5qzn4vl8/Tu%20Hi%20Mera%20Jannat%202%20Original%20Motion%20Picturetrack%20128%20Kbps.mp3?dl=0"
+        "Source" : "https://www.dropbox.com/s/v3ak1ye5qzn4vl8/Tu%20Hi%20Mera%20Jannat%202%20Original%20Motion%20Picturetrack%20128%20Kbps.mp3?dl=1"
     },
     
 ]
