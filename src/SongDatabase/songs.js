@@ -119,6 +119,13 @@ const Songs = [
         "Thumbnail" : "https://www.pagalworld.tv/GpE34Kg9Gq/10552/thumb-jabra-fan-mp3-song-300.jpg",
         "Source" : "https://www.dropbox.com/s/a7rx1m8lvrvwbhu/Jabra%20Fan%20%28Hindi%29%20190Kbps%20%282%29.mp3?dl=1"
     },
+     {
+        "SongID" : 17,
+        "Title" : "Dil Ibaadat",
+        "Category" : "chill",
+        "Thumbnail" : "https://i1.sndcdn.com/artworks-4a9uRYKokSlxODeV-pjh2RA-t500x500.jpg",
+        "Source" : "https://www.dropbox.com/s/9w6nko6lsm20h0h/Dil%20Ibaadat%20Tum%20Mile%20Original%20Motion%20Picturetrack%20128%20Kbps.mp3?dl=1"
+    },
  
     
 ]
