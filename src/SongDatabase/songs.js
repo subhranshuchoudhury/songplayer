@@ -145,7 +145,7 @@ const Songs = [
         "Title" : "Deva Deva - Arijit Singh",
         "Category" : "motivation",
         "Thumbnail" : "https://i.ytimg.com/vi/mNuhKUOD_A0/maxresdefault.jpg",
-        "Source" : "https://www.pagalworld.com.se/deva-deva-song-download.html"
+        "Source" : "https://www.dropbox.com/s/spvk6wmg0qth1zb/Deva%20Deva%28PagalWorld.com.se%29.mp3?dl=0"
 
     }
 
