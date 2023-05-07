@@ -155,7 +155,16 @@ const Songs = [
             "Thumbnail" : "https://pagalsong.in/uploads//thumbnails/300x300/id3Picture_470141778.jpg",
             "Source" : "https://www.dropbox.com/s/lt0k9mod3yp8gix/new_320_01%20-%20Ek%20Zindagi%20-%20Angrezi%20Medium%20%282020%29.mp3?dl=1"
     
-        }, 
+        },
+         {
+           "SongID" : 24,
+                    "Title" : "Dil Ibaadat-KK",
+                    "Category" : "Love",
+                    "Thumbnail" : "https://c.saavncdn.com/732/Dil-Ibadat-English-2020-20200411140403-500x500.jpg",
+                    "Source" : "https://www.dropbox.com/s/6s42l7sg9ll8wdv/old_Tum%20Mile-Dil%20Ibadat.mp3?dl=1"
+            
+                },
+         
 ]
 
 export default Songs;
