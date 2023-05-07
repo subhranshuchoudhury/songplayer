@@ -140,6 +140,14 @@ const Songs = [
         "Thumbnail" : "https://www.pagalworld.tv/GpE34Kg9Gq/113604/151373-boyfriend-part-1-dino-james-mp3-song-300.jpg",
         "Source" : "https://www.dropbox.com/s/pdmqleoifffykor/Boyfriend%20Part%201%20-%20Dino%20James.mp3?dl=1"
     },
+    {
+    "SongID" : 22,
+        "Title" : "Deva Deva - Arijit Singh",
+        "Category" : "motivation",
+        "Thumbnail" : "https://i.ytimg.com/vi/mNuhKUOD_A0/maxresdefault.jpg",
+        "Source" : "https://www.pagalworld.com.se/deva-deva-song-download.html"
+
+    }
 
  
     
