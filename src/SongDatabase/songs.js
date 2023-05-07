@@ -147,10 +147,15 @@ const Songs = [
         "Thumbnail" : "https://i.ytimg.com/vi/mNuhKUOD_A0/maxresdefault.jpg",
         "Source" : "https://www.dropbox.com/s/spvk6wmg0qth1zb/Deva%20Deva%28PagalWorld.com.se%29.mp3?dl=1"
 
-    }
-
- 
+    }, 
+    {
+    "SongID" : 23,
+            "Title" : "Ek Zindagi Song",
+            "Category" : "motivation",
+            "Thumbnail" : "https://pagalsong.in/uploads//thumbnails/300x300/id3Picture_470141778.jpg",
+            "Source" : "https://www.dropbox.com/s/lt0k9mod3yp8gix/new_320_01%20-%20Ek%20Zindagi%20-%20Angrezi%20Medium%20%282020%29.mp3?dl=1"
     
+        }, 
 ]
 
 export default Songs;
