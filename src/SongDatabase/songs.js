@@ -145,9 +145,19 @@ const Songs = [
         "Title" : "Deva Deva - Arijit Singh",
         "Category" : "motivation",
         "Thumbnail" : "https://i.ytimg.com/vi/mNuhKUOD_A0/maxresdefault.jpg",
-        "Source" : "https://www.dropbox.com/s/spvk6wmg0qth1zb/Deva%20Deva%28PagalWorld.com.se%29.mp3?dl=0"
+        "Source" : "https://www.dropbox.com/s/spvk6wmg0qth1zb/Deva%20Deva%28PagalWorld.com.se%29.mp3?dl=1"
 
-    }
+    },
+    {
+    "SongID" : 23,
+            "Title" : "Deva Deva - Arijit Singh",
+            "Category" : "motivation",
+            "Thumbnail" : "https://i.ytimg.com/vi/05DrDxjMEbU/maxresdefault.jpg",
+            "Source" : "https://www.dropbox.com/s/lt0k9mod3yp8gix/new_320_01%20-%20Ek%20Zindagi%20-%20Angrezi%20Medium%20%282020%29.mp3?dl=1"
+    
+        }
+    
+
 
  
     
